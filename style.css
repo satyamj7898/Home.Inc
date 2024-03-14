@@ -1,0 +1,798 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color:#FFFFFF;
+}
+#nav{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    font-family: Gilroy;
+}
+#nav #left{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+}
+#left h1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    -webkit-text-stroke: 2px rgb(3, 36, 134);
+    color: transparent;
+    
+}
+
+#nav #center{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    /* position: absolute; */
+    padding-left: 100px;
+    /* background-color: green; */
+}
+#center a{
+    
+    text-decoration: none;
+    color: black;
+    /* -webkit-text-stroke: 2px rgb(170, 22, 22); */
+    padding-left: 40px;
+    margin-left: 50px;
+
+}
+#nav #right{
+    position: relative;
+    display: flex;
+    width: 30%;
+    height: 100%;
+    /* background-color: grey; */
+}
+#right a{
+    position: absolute;
+    top: 53%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(43, 41, 41);
+}
+#right h3{
+    position: absolute;
+    top: 50%;
+    left: 77%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 1000px;
+}
+#nav #rr{
+    position: relative;
+    width: 10%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+#rr #s{
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%,50%);
+    background-color:rgb(3, 15, 49);
+    border-radius: 10px;
+}
+#rr #s a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+}
+#image{
+    height: 65%;
+    width: 55%;
+    background-image: url(https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE2fHxob21lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+#image img{
+    
+        z-index: 6px;
+        width: 900px;
+        height: 480px;
+
+}
+#nav1{
+    position: absolute;
+    top: 75%;
+    left: 70%;
+    z-index: 0;
+    transform: translate(-50%,-50%);
+    width: 47%;
+    height: 45%;
+    background-color:cadetblue;
+}
+#text{
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    transform: translate(-50%,-50%);
+}
+#text h1{
+    font-family: Gilroy;
+    font-size: 80px;
+
+}
+#text1{
+    position: absolute;
+    top: 65%;
+    left: 19%;
+    transform: translate(-50%,-50%);
+}
+#text1 h3{
+    font-family: Gilroy;
+    font-size: 25px;
+
+}
+#nav2{
+    position: absolute;
+    top: 83%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    width: 13%;
+    height: 8%;
+    /* background-color: red; */
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#nav2 h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size: 15px;
+}
+#circle{
+    position: absolute;
+    top: 92%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    /* background-color:#75C7D3; */
+    background-image: url(https://images.unsplash.com/photo-1604072366595-e75dc92d6bdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHdvbWFuJTIwZmFjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+#circle1{
+    position: absolute;
+    top: 92%;
+    left: 84%;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #75C7D3;
+    border-radius: 50%;
+}
+#circle1 a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color: white;
+    font-family: Gilroy;
+    font-size: 20px;
+}
+#circle2{
+    position: absolute;
+    top: 92%;
+    left: 88%;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #75C7D3;
+    border-radius: 50%;
+}
+#circle2 a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color: white;
+    font-family: Gilroy;
+    font-size: 20px;
+}
+#text2{
+    position: absolute;
+    top:  92%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+}
+#text2 h3{
+    color: white;
+    font-weight: 500px;
+    font-size: 15px;
+}
+#text2 h5{
+    color: rgb(109, 106, 106);
+    font-weight: 500px;
+    font-size: 10px;
+}
+#line{
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    top: 35%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    padding-left: 50px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: Gilroy;
+    font-size: 10px;
+} 
+#line1 {
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    top: 56%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    padding-left: 50px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: Gilroy;
+    font-size: 10px;
+}
+#line2{
+    position: absolute;
+    top: 47%;
+    left: 92.80%;
+    transform: translate(-50%,-50%);
+    width: 6%;
+    height: 1%;
+    background-color: black;
+    font-family: Gilroy;
+    transform: rotate(90deg);
+    font-weight: 500px;
+}
+#nav3{
+    /* position: relative; */
+    width: 100%;
+    height: 100vh;
+    background-color:#FFFFFF;
+}
+#text3 h4{
+    position: absolute;
+    top: 108%;
+    left: 17%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    color: rgb(65, 61, 61);
+
+}
+#text3 h1{
+    position: absolute;
+    top: 113%;
+    left: 23%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size: 40px;
+}
+#text3 h2{
+    position: absolute;
+    top: 119%;
+    left: 17.70%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size: 40px;
+}
+#nav4{
+    position: absolute;
+    top: 115%;
+    left: 82%;
+    transform: translate(-50%,-50%);
+    width: 12%;
+    height: 8%;
+    /* background-color: red; */
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#nav4 h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size: 15px;
+}
+#nav5{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color:white;
+    position: absolute;
+    top: 170%;
+    left: 50.50%;
+    transform: translate(-50%,-50%);
+
+}
+#nav5 #s{
+    width: 30%;
+    height: 100%;
+    /* background-color:red; */
+}
+#nav5 #a{
+    width: 30%;
+    height: 100%;
+    /* background-color:rgb(0, 255, 136); */
+}
+#nav5 #t{
+    width: 30%;
+    height: 100%;
+    /* background-color:rgb(55, 0, 255); */
+}
+#tnav5one{
+    width: 100%;
+    height:50%;
+    background-image: url(  https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+}
+#tnav5two{
+    width: 100%;
+    height:50%;
+    background-image: url(https://images.unsplash.com/photo-1543892607-04657ef3a279?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnVpbGRpbmdzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+}
+#tnav5three{
+    width: 100%;
+    height:50%;
+    background-image: url(https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#bnav5one,#bnav5two,#bnav5three{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+}  
+#bnav5one h2{
+    position: absolute;
+    top: 55%;
+    left: 7%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(37, 36, 36);
+} 
+#bnav5one h3{
+    position: absolute;
+    top: 63%;
+    left: 12%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(70, 67, 67);
+} 
+#bnav5one h4{
+    position: absolute;
+    top: 70%;
+    left: 6%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(8, 8, 8);
+} 
+#bnav5one a{
+    position: absolute;
+    top: 80%;
+    left: 2%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color: black;
+    font-family: Gilroy;
+    font-size: 20px;
+}
+#bnav5one #s{
+    position: absolute;
+    top: 127.30%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+
+}
+#bnav5one #a{
+    position: absolute;
+    top: 127.30%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+
+}
+#nav6{
+    position: absolute;
+    top: 93%;
+    left: 6%;
+    transform: translate(-50%,-50%);
+    width: 9%;
+    height: 7%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#nav6 h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size: 10px;
+}
+#bnav5one h1{
+    position: absolute;
+    top: 79.50%;
+    left: 5%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size:15px;
+    color: rgb(107, 102, 102);
+}
+#bnav5one h5{
+    position: absolute;
+    top: 79.50%;
+    left: 14%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size:15px;
+    color: rgb(107, 102, 102);
+}
+#bnav5one h6{
+    position: absolute;
+    top: 79.50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size:15px;
+    color: rgb(107, 102, 102);
+}
+#bnav5two h2{
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(37, 36, 36);
+} 
+#bnav5two h3{
+    position: absolute;
+    top: 63%;
+    left: 47%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(70, 67, 67);
+} 
+#bnav5two h4{
+    position: absolute;
+    top: 70%;
+    left: 41%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(8, 8, 8);
+} 
+#bnav5two a{
+    position: absolute;
+    top: 80%;
+    left: 37%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color: black;
+    font-family: Gilroy;
+    font-size: 20px;
+}
+#bnav5two #t{
+    position: absolute;
+    top: 127.30%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+#bnav5two #y{
+    position: absolute;
+    /* top: 127.30%; */
+    left: 55%;
+    transform: translate(-50%,-50%);
+
+   
+}
+#nav7{
+    position: absolute;
+    top: 93%;
+    left: 41%;
+    transform: translate(-50%,-50%);
+    width: 9%;
+    height: 7%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#nav7 h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size: 10px;
+}
+#bnav5two h1{
+    position: absolute;
+    top: 79.50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size:15px;
+    color: rgb(107, 102, 102);
+}
+#bnav5two h5{
+    position: absolute;
+    top: 79.50%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size:15px;
+    color: rgb(107, 102, 102);
+}
+#bnav5two h6{
+    position: absolute;
+    top: 79.50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size:15px;
+    color: rgb(107, 102, 102);
+}
+#bnav5three h2{
+    position: absolute;
+    top: 55%;
+    left: 77%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(37, 36, 36);
+} 
+#bnav5three h3{
+    position: absolute;
+    top: 63%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(70, 67, 67);
+    /* white-space:none; */
+} 
+#bnav5three h4{
+    position: absolute;
+    top: 70%;
+    left: 76%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(8, 8, 8);
+} 
+#bnav5three a{
+    position: absolute;
+    top: 80%;
+    left: 72%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color: black;
+    font-family: Gilroy;
+    font-size: 20px;
+}
+#bnav5three #j{
+    position: absolute;
+    top: 80%;
+    left: 81%;
+    transform: translate(-50%,-50%);
+}
+#bnav5three #i{
+    position: absolute;
+    top: 80%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+}
+#nav8{
+    position: absolute;
+    top: 93%;
+    left: 76%;
+    transform: translate(-50%,-50%);
+    width: 9%;
+    height: 7%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#nav8 h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size: 10px;
+}
+#bnav5three h1{
+    position: absolute;
+    top: 79.50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size:15px;
+    color: rgb(107, 102, 102);
+}
+#bnav5three h5{
+    position: absolute;
+    top: 79.50%;
+    left: 84%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size:15px;
+    color: rgb(107, 102, 102);
+}
+#bnav5three h6{
+    position: absolute;
+    top: 79.50%;
+    left: 94%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size:15px;
+    color: rgb(107, 102, 102);
+}
+#bnav5one #m{
+    position: absolute;
+    top: 4%;
+    left: 27%;
+    transform: translate(-50%,-50%);
+    width: 4%;
+    height: 5%;
+    background-color: white;
+    border-radius: 10%;
+
+}
+#bnav5one #m h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family:Gilroy;
+}
+
+#bnav5two #n{
+    position: absolute;
+    top: 4%;
+    left: 62%;
+    transform: translate(-50%,-50%);
+    width: 4%;
+    height: 5%;
+    background-color: white;
+    border-radius: 10%;
+
+}
+#bnav5two #n h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family:Gilroy;
+}
+#bnav5three #o{
+    position: absolute;
+    top: 4%;
+    left: 97%;
+    transform: translate(-50%,-50%);
+    width: 4%;
+    height: 5%;
+    background-color: white;
+    border-radius: 10%;
+
+}
+#bnav5three #o h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family:Gilroy;
+}
+
+#nav #left h1:hover{
+    color:rgb(109, 100, 100);
+    /* background-color:  rgb(136, 32, 80); */
+     cursor: pointer;
+}
+#nav #center a:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(118, 156, 163);
+     cursor: pointer;
+     font-size: 30px;
+}
+#nav #right a:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(170, 22, 22);
+     cursor: pointer;
+     font-size: 30px;
+}
+#nav #right h3:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(170, 22, 22);
+     cursor: pointer;
+     font-size: 30px;
+}
+#nav #rr a:hover{
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(105, 160, 107);
+     cursor: pointer;
+     font-size: 11px;
+}
+  #image:hover{
+     color: transparent;
+     background-image: url(https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+     background-position: center;
+     background-size: cover;
+     cursor: pointer;
+ }
+ #tnav5one:hover{
+     color: transparent;
+     background-image: url(https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+     background-position: center;
+     background-size: cover;
+ }
+ #tnav5two:hover{
+    color: transparent;
+    background-image: url(https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+#tnav5three:hover{
+    color: transparent;
+    background-image: url(https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
